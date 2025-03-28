@@ -11,9 +11,9 @@
 
 ## Overview
 
-iFuel is a cutting-edge Rust application built specifically for the Fuel blockchain ecosystem. It leverages Rust's performance and safety features to generate cryptographically secure vanity addresses with blazing fast speed while maintaining memory safety and thread security.
+iFuel is a Rust application built specifically for the Fuel blockchain ecosystem. It leverages Rust's performance and safety features to generate cryptographically secure vanity addresses with super fast speed while maintaining memory safety and thread security.
 
-The project features a beautiful terminal interface with colorful output, providing a premium developer experience.
+The project features a terminal interface with visual UI output, providing a premium experience.
 
 ## Features
 
