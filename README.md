@@ -1,15 +1,6 @@
-██╗███████╗██╗   ██╗███████╗██╗     
-██║██╔════╝██║   ██║██╔════╝██║     
-██║█████╗  ██║   ██║█████╗  ██║     
-██║██╔══╝  ██║   ██║██╔══╝  ██║     
-██║██║     ╚██████╔╝███████╗███████╗
-╚═╝╚═╝      ╚═════╝ ╚══════╝╚══════╝
-
 # iFuel - Fuel Vanity Address Generator
 
 > A high-performance, secure Rust application for generating custom Fuel blockchain wallet addresses with personalized patterns, optimized for speed and security.
-
-![iFuel Logo](frontend/img/ifuel-logo.svg)
 
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/ohbanned/Fuel-Vanity-Address-Generator)
 [![Twitter](https://img.shields.io/badge/Twitter-@ohbannedOS-blue?logo=twitter)](https://x.com/ohbannedOS)
@@ -20,11 +11,9 @@
 
 ## Overview
 
-iFuel is a cutting-edge Rust application built specifically for the Fuel blockchain ecosystem. It leverages Rust's performance and safety features to generate cryptographically secure vanity addresses with blazing fast speed while maintaining memory safety and thread security.
+iFuel is a cutting-edge Rust application built specifically for the Fuel eco. It leverages Rust's performance and safety features to generate cryptographically secure vanity addresses with super fast speed while maintaining memory safety and thread security.
 
-The project is built with a **clean architecture**, **comprehensive error handling**, and both **terminal and web interfaces**, making it production-ready and user-friendly.
-
----
+The project features both a terminal interface and a web interface, making it versatile for different user preferences.
 
 ## Features
 
