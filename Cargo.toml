@@ -1,0 +1,37 @@
+[package]
+name = "fuel-vanity-generator"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+fuels = "0.71.0"
+rand = "0.8.5"
+clap = { version = "4.4.11", features = ["derive"] }
+tokio = { version = "1.35.1", features = ["full"] }
+hex = "0.4.3"
+indicatif = "0.17.7"
+rayon = "1.8.0"
+num_cpus = "1.16.0"
+fuel-crypto = "0.45.0"
+sha2 = "0.10.8"
+blake2 = "0.10.6"
+sha3 = "0.10.8"
+wasm-bindgen = "0.2.88"
+console_error_panic_hook = "0.1.7"
+getrandom = { version = "0.2", features = ["js"] }
+futures = "0.3.28"
+crossterm = "0.25.0"
+atty = "0.2.14"
+unicode-width = "0.1.9"
+textwrap = "0.16.0"
+
+[profile.release]
+lto = true
+opt-level = 3
+codegen-units = 1
+
+[package.metadata.wasm-pack.profile.release]
+wasm-opt = ["-O3", "--enable-mutable-globals"]
