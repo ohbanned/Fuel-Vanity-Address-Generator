@@ -27,7 +27,7 @@ The project features a terminal interface with visual UI output, providing a pre
 
 ## Screenshots
 
-![Terminal UI Screenshot](screenshots/terminal-ui.png)
+![Terminal UI Screenshot](https://raw.githubusercontent.com/ohbanned/Fuel-Vanity-Address-Generator/main/screenshots/terminal-ui.png)
 
 ## Installation
 
