@@ -4,7 +4,7 @@
 
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/ohbanned/Fuel-Vanity-Address-Generator)
 [![Twitter](https://img.shields.io/badge/Twitter-@ohbannedOS-blue?logo=twitter)](https://x.com/ohbannedOS)
-[![Lines of Code](https://img.shields.io/badge/Lines%20of%20Code-~1.2k-brightgreen)](#code-quality)
+[![Lines of Code](https://img.shields.io/badge/Lines%20of%20Code-~1.5k-brightgreen)](#code-quality)
 [![Rust](https://img.shields.io/badge/Built%20with-Rust-orange?logo=rust)](https://www.rust-lang.org/)
 
 ---
