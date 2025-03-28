@@ -11,7 +11,7 @@
 
 ## Overview
 
-iFuel is a cutting-edge Rust application built specifically for the Fuel eco. It leverages Rust's performance and safety features to generate cryptographically secure vanity addresses with super fast speed while maintaining memory safety and thread security.
+iFuel is a Rust based Vanity Address Generator application built specifically for the Fuel eco. It leverages Rust's performance and safety features to generate cryptographically secure vanity addresses with super fast speed while maintaining memory safety and thread security.
 
 The project features both a terminal interface and a web interface, making it versatile for different user preferences.
 
