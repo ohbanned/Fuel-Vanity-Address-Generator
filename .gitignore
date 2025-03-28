@@ -1,0 +1,7 @@
+/target/
+/test-wallet/
+**/.DS_Store
+.vscode/
+.idea/
+**/*.rs.bk
+Cargo.lock

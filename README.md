@@ -11,20 +11,23 @@
 
 ## Overview
 
-iFuel is a cutting-edge Rust application built specifically for the Fuel eco. It leverages Rust's performance and safety features to generate cryptographically secure vanity addresses with super fast speed while maintaining memory safety and thread security.
+iFuel is a cutting-edge Rust application built specifically for the Fuel blockchain ecosystem. It leverages Rust's performance and safety features to generate cryptographically secure vanity addresses with blazing fast speed while maintaining memory safety and thread security.
 
-The project features both a terminal interface and a web interface, making it versatile for different user preferences.
+The project features a beautiful terminal interface with colorful output, providing a premium developer experience.
 
 ## Features
 
 - **High-Performance**: Utilizes Rust's concurrency features and optimized cryptography for lightning-fast address generation
-- **Beautiful UI**: Terminal interface with colorful ASCII art and well-formatted output
-- **Web Interface**: User-friendly web interface for generating addresses without installing anything
+- **Beautiful Terminal UI**: Clean, colorful ASCII art and well-formatted output
 - **Multiple Search Types**: Find addresses with specific prefixes, suffixes, or containing specific patterns
 - **Case-Sensitive Mode**: Optional case-sensitive matching for more specific pattern targeting
 - **Secure**: All cryptographic operations performed locally with no external API dependencies
 - **Multi-threaded**: Automatically utilizes all available CPU cores for maximum performance
 - **Cross-Platform**: Works on MacOS, Linux, and Windows
+
+## Screenshots
+
+![Terminal UI Screenshot](screenshots/terminal-ui.png)
 
 ## Installation
 
@@ -44,8 +47,6 @@ cargo build --release
 
 ## Usage
 
-### Terminal Interface
-
 Launch the program and use one of the following commands:
 
 ```
@@ -56,22 +57,12 @@ help                    # Show command help
 exit                    # Exit the program
 ```
 
-#### Options
+### Options
 
 - `-s, --case-sensitive` - Enable case-sensitive matching
 - `-t, --threads <num>` - Specify number of threads to use (default: all CPU cores)
 
-### Web Interface
-
-1. Open the `frontend/index.html` file in your browser
-2. Enter your desired pattern
-3. Select the pattern position (prefix, suffix, or anywhere)
-4. Toggle case sensitivity if needed
-5. Click "Generate Address"
-
 ## Examples
-
-### Terminal Examples
 
 Generate addresses with prefix "abc":
 ```
@@ -121,10 +112,6 @@ iFuel is designed for maximum performance:
 .
 ├── src/                # Rust source code
 │   └── main.rs         # Main application code
-├── frontend/           # Web interface files
-│   ├── index.html      # Main HTML page
-│   ├── css/            # Stylesheets
-│   └── js/             # JavaScript code
 └── README.md           # Project documentation
 ```
 
